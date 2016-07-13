@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="fc">#FFCCCCCC</color>
+    <color name="qqbtn">#FF27408B</color>
+    <color name="confirm">#FF3344CC</color>
+    <color name="cancel">#FF222222</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+</resources>
