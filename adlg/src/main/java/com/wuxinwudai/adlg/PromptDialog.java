@@ -90,6 +90,7 @@ public final class PromptDialog extends ContainerDialog {
         super.onCreate(savedInstanceState);
         mflContainerView.removeAllViews();
         metInput = new EditText(getContext());
+        metInput.setBackgroundDrawable(getContext().getResources().getDrawable(R.drawable.selector_edittext));
         setChildView(metInput);
         setInputText(inputText);
         setInputHint(inputHint);

@@ -59,8 +59,10 @@ public class ContainerDialog extends Dialog {
     protected String mMessage;//消息文本
     private AnimationSet mModalInAnim;//进入动画
     private AnimationSet mModalOutAnim;//退出动画
-    protected int mPadding = 15;//左右两侧留空白
+    protected int mPadding = 25;//左右两侧留空白
     protected int mContainerHeight = LinearLayout.LayoutParams.WRAP_CONTENT;//容器高度,默认自适应
+    protected LinearLayout mflContainerView;//容器视图
+    protected View mChildView;//子视图
     /**
      * 初始化视图控件
      */
@@ -133,11 +135,7 @@ public class ContainerDialog extends Dialog {
             tv.setText(txt);
         }
     }
-    //endregion
 
-    //region 受保护成员和方法
-    protected LinearLayout mflContainerView;//容器视图
-    protected View mChildView;//子视图
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -150,12 +148,9 @@ public class ContainerDialog extends Dialog {
         mDialogView.startAnimation(mModalInAnim);
         super.onStart();
     }
-
-
     //endregion
 
     //region 公有方法
-
     @Override
     public void dismiss() {
         mDialogView.startAnimation(mModalOutAnim);

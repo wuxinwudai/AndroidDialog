@@ -33,7 +33,7 @@ public final class QQStyleDialog extends Dialog {
     private Button mbtnCancel = null;//取消按钮
     private ListAdapter mAdapter;//数据适配器
     private int mPadding = 8;//左右边距
-    private int mTextColor = 0x303F9F ;//文本颜色
+    private int mTextColor = 0xFF007AFF ;//文本颜色
 
     /**
      * 公有构造函数，初始化 QQStyleDialog 类的一个新实例

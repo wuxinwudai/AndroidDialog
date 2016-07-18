@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv1:{
                 ContainerDialog.create(this)
                         .setTitle("欢迎使用 ContainerDialog！！")
-                        .setMessage("请使用 setChildView 方法而非使用 setContentView 方法")
+                        //.setMessage("请使用 setChildView 方法而非使用 setContentView 方法")
                         .setOnConfirmClickListener(new ContainerDialog.OnConfirmClickListener() {
                             @Override
                             public void confirm(ContainerDialog containerDialog) {

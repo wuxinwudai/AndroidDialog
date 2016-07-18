@@ -3,6 +3,7 @@
     <color name="transparent">#00000000</color>
     <color name="fc">#FFCCCCCC</color>
     <color name="qqbtn">#FF27408B</color>
+    <color name="dialog_btn">#007AFF</color>
     <color name="confirm">#FF3344CC</color>
     <color name="cancel">#FF222222</color>
     <color name="error_stroke_color">#F27474</color>

@@ -10,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:paddingTop="18dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
@@ -21,22 +23,23 @@
             android:gravity="center"
             android:marqueeRepeatLimit="marquee_forever"
             android:singleLine="true"
-            android:textColor="#FF333333"
-            android:textSize="16sp"
-            android:layout_marginBottom="10dp"/>
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="14dp"/>
         <TextView
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/tv_message"
             android:gravity="left"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FF333333"/>
         <LinearLayout
-
             android:orientation="vertical"
             android:id="@+id/fl_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
         </LinearLayout>
     </LinearLayout>
 
@@ -50,13 +53,13 @@
             android:id="@+id/tv_confirm"
             android:text="@string/confirm"
             style="@style/da_dialog_btn"
-            android:textColor="@color/confirm"
+            android:textColor="@color/dialog_btn"
             android:background="@drawable/selector_bg_left_button"/>
         <TextView
             android:text="@string/cancel"
             android:id="@+id/tv_cancel"
             style="@style/da_dialog_btn"
-            android:textColor="@color/cancel"
+            android:textColor="@color/dialog_btn"
             android:background="@drawable/selector_bg_right_button"/>
     </LinearLayout>
 </LinearLayout>

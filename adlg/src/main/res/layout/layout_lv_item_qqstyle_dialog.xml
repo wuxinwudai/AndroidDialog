@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:id="@+id/tv_title"
     android:gravity="center"
-    android:textColor="@color/qqbtn"
+    android:textColor="@color/dialog_btn"
     android:textSize="16sp"
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
